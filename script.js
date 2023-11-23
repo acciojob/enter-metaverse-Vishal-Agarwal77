@@ -9,6 +9,7 @@ btn.addEventListener("click",()=>{
 	}
 	p.remove();
 	const h1=document.createElement("h1");
+	h1.id="status";
 	h1.innerHTML="Entered Metaverse";
 	body.insertBefore(h1,btn);
 	count++;
