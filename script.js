@@ -7,10 +7,10 @@ btn.addEventListener("click",()=>{
 	if(count>0){
 		return ;
 	}
-	p.innerHTML="";
+	p.remove();
 	const h1=document.createElement("h1");
+	h1.id="status";
 	h1.innerHTML="Entered Metaverse";
-	p.appendChild(h1);
 	body.insertBefore(h1,btn);
 	count++;
 });
